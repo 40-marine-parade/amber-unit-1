@@ -84,13 +84,13 @@
 			<cube url="panos/A.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-176.0" atv="29" linkedscene="scene_C" 
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="19" atv="12" linkedscene="scene_C" 
 			scale="0.8"
 	       	onover.addevent="tween(scale,0.85);"
 	       	onout.addevent="tween(scale,0.8);"
 		/>
 
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="0" atv="23.6" linkedscene="scene_F" 
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="166" atv="17" linkedscene="scene_F" 
 			scale="0.8"
 	       	onover.addevent="tween(scale,0.85);"
 	       	onout.addevent="tween(scale,0.8);"
@@ -102,7 +102,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-1.644" vlookat="-0.267" fovtype="MFOV" fov="108.547" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/C.tiles/preview.jpg" />
 
@@ -110,13 +110,13 @@
 			<cube url="panos/C.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot4" style="skin_hotspotstyle" ath="-172" atv="33.6" linkedscene="scene_D" 
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-0.6" atv="" linkedscene="scene_D" 
 			scale="0.8"
 	       	onover.addevent="tween(scale,0.85);"
 	       	onout.addevent="tween(scale,0.8);"
 		/>
 
-		<hotspot name="spot6" style="skin_hotspotstyle" ath="91.4" atv="41.7" linkedscene="scene_E" 
+		<hotspot name="spot6" style="skin_hotspotstyle" ath="-50.35" atv="12.4" linkedscene="scene_E" 
 			scale="0.8"
 	       	onover.addevent="tween(scale,0.85);"
 	       	onout.addevent="tween(scale,0.8);"
@@ -136,7 +136,13 @@
 			<cube url="panos/D.tiles/pano_%s.jpg" />
 		</image>
 
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="160" atv="52.6" linkedscene="scene_C" 
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="140" atv="52.6" linkedscene="scene_C" 
+			scale="0.8"
+	       	onover.addevent="tween(scale,0.85);"
+	       	onout.addevent="tween(scale,0.8);"
+		/>
+
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-64.2" atv="17" linkedscene="scene_E" 
 			scale="0.8"
 	       	onover.addevent="tween(scale,0.85);"
 	       	onout.addevent="tween(scale,0.8);"
@@ -148,7 +154,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-3.262" vlookat="-0.663" fovtype="MFOV" fov="108.547" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/E.tiles/preview.jpg" />
 
